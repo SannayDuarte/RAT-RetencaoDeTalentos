@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="Empresa.css">
+    <link rel="icon" type="imagem/png" href="IMG/icon-nav.png" />
+</head>
+
+<body>
+    <!--BARRA DE NAVEGAÇÃO-->
+    <nav class="navbar navbar-expand-md container" id="di">
+        <a class="navbar-brand" href="indexR.html"><img class="img" src="logo.png" alt=""></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-white" id="i" href="indexR.html">Sair</a>
+            </li>
+        </ul>
+    </nav>
+    <!--LOGIN-->
+    <!--BARRA DE NAVEGAÇÃO-->
+
+    <!--Conteudo-->
+    <div>
+        <div>
+            <main class="container conteudo my-4 p-4">
+                <div class="border-bottom">
+                    <img src="../IMG/user.png" alt="">
+                    <h2>Nome Empresa</h2>
+                </div>
+            </main>
+            <div class="container">
+                <div class="mb-4 row justify-content-between">
+                    <aside class="col-3 conteudo">
+                        <div class="row p-5">
+                            <h5>Acompanhe aqui as Atualizaçoes:</h5>
+                            <button class="btn bt-log" data-bs-toggle="modal" data-bs-target="#staticBackdrop001">Dados
+                                da Empresa</button>
+                            <button class="btn bt-log" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop002">Pontos a melhorar</button>
+                            <button class="btn bt-log" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop003">Estudo da Empresa</button>
+                            <button class="btn bt-log" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop004">Desempenho Baixo</button>
+                            <button class="btn bt-log" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop005">Talentos Potenciais</button>
+                            <button class="btn bt-log" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop007">Talentos da Rede</button>
+                            <button class="btn bt-log" href="ajuda.html">Fale Conosco</button>
+                        </div>
+                    </aside>
+                    <section class="col-xl-8 col-12 conteudo cont-fixed p-5">
+                        <h2> Resultados do Teste de Conhecimento da Empresa</h2>
+                        <h4>Gráfico:</h4>
+                        <img class="img-g" src="empresagrafico.png" alt="">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <button class="btn bt-log" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop006">
+                                <h3>Resultado: teste dos Funcionarios Cadastrados.</h3></button>
+                    </section>
+                </div>
+
+            </div>
+
+        </div>
+        <!--modals-->
+        <div>
+            <!--conteúdo menu lateral-->
+            <!-- Modal 001 sua conta -->
+            <div class="modal modal-dialog-scrollable" id="staticBackdrop001" data-bs-backdrop="static"
+                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel001" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel001">Verde Oliva</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                                <tr>
+                                    <td> Razão Social:</td>
+                                    <td> Nome da Empresa</td>
+                                </tr>
+                                <tr>
+                                    <td> Nome Fantasia:</td>
+                                    <td> --------</td>
+                                </tr>
+                                <tr>
+                                    <td> CNPJ:</td>
+                                    <td> 000258021/0001</td>
+                                </tr>
+                                <tr>
+                                    <td> Endereço:</td>
+                                    <td> Coronel de matos, 507 </td>
+                                    <td>Bairro:</td>
+                                    <td>Flores do nascer</td>
+                                </tr>
+                                <tr>
+                                    <td> Cep:</td>
+                                    <td> 06915-169</td>
+                                    <td> Cidade:</td>
+                                    <td> Rio de Janeiro</td>
+                                    <td>UF:</td>
+                                    <td>RJ</td>
+                                </tr>
+                                <tr>
+                                    <td>email:</td>
+                                    <td colspan="2">faleconosco@verdeoliva.com.br</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">Telefones:</td>
+                                    <td> (21) 2648-7898</td>
+                                </tr>
+                                <tr>
+                                    <td> (21) 96587-3636</td>
+                                </tr>
+                                <tr>
+
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+
+                            <a href="./dados.html"><button type="submit" class="btn bt-inst tx">Alterar</button></a>
+                            <button type="button" class="btn bt-inst tx" data-bs-dismiss="modal">Finalizar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal 002 problemas a ser resolvidos-->
+            <div class="modal modal-dialog-scrollable" id="staticBackdrop002" data-bs-backdrop="static"
+                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel002" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel002">Pontos a melhorar:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Divisao de tarefas</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio quae eius, quis rerum id 
+                                incidunt distinctio dolores! Totam dolor natus, voluptatem sapiente iusto, porro nulla 
+                                eum dolores vel consequatur tempore.</p>
+                            <h5>Comunicaçao</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident deserunt dolorem 
+                                perferendis quibusdam  cum necessitatibus eos expedita architecto corrupti, distinctio porro, 
+                                consectetur debitis repellendus libero nemo nam doloremque ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal 003 sobre a empresa  -->
+            <div class="modal modal-dialog-scrollable" id="staticBackdrop003" data-bs-backdrop="static"
+                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel002" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel002">Projetos cadastrados</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Resultado do Estudo da sua Empresa</h4>
+                            <h5>Perfil</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias atque provident minus? Quo, dolorem
+                                nostrum. Cupiditate nam asperiores deleniti beatae soluta accusantium laborum voluptas, inventore, in, 
+                                repellendus iste illum reprehenderit!</p>
+                            <h5>O que o publico fala: </h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias atque provident minus? Quo, dolorem
+                                nostrum. Cupiditate nam asperiores deleniti beatae soluta accusantium laborum voluptas, inventore, in, 
+                                repellendus iste illum reprehenderit!</p>
+                            <h5>Gestao de Pessoas e Liderança:</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias atque provident minus? Quo, dolorem
+                                    nostrum. Cupiditate nam asperiores deleniti beatae soluta accusantium laborum voluptas, inventore, in, 
+                                        repellendus iste illum reprehenderit!</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--modal 004 zona vermelha-->
+            <div class="modal modal-dialog-scrollable" id="staticBackdrop004" data-bs-backdrop="static"
+                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel004" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel004">Aviso de desligamento </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                                <tr>
+                                    <th> Nome:</th>
+                                    <td> André Marques</td>
+                                    <td> - </td>
+                                    <td>
+                                        <div class="pop">
+                                            <a tabindex="0" class="btnn btn-lg tx" role="button"
+                                                data-bs-toggle="popover" data-bs-trigger="focus"
+                                                title="Motivo" data-bs-content="Falta de aderência à cultura da empresa.">
+                                                Motivo
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>   
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+
+                        <button type="submit" class="btn bt-inst tx">Atualizar</button>
+                        <button type="button" class="btn bt-inst tx" data-bs-dismiss="modal">Finalizar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--modal 005 zona vermelha-->
+            <div class="modal modal-dialog-scrollable" id="staticBackdrop005" data-bs-backdrop="static"
+                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel005" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel004">Sao perfeitos pra sua empresa:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                                <tr>
+                                    <th> Nome:</th>
+                                    <td> Nivea Marques</td>
+                                    <td> - </td>
+                                    <td>
+                                        <div class="pop">
+                                            <a tabindex="0" class="btnn btn-lg tx" role="button"
+                                                data-bs-toggle="popover" data-bs-trigger="focus"
+                                                title=" match " data-bs-content="Numero: (00) 00000-0000 
+                                                Estado:------ Cidade:-------">
+                                                Contato
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>   
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+
+                        <button type="submit" class="btn bt-inst tx">Atualizar</button>
+                        <button type="button" class="btn bt-inst tx" data-bs-dismiss="modal">Finalizar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Scrollable 06 modal -->
+            <div class="modal modal-dialog-scrollable" id="staticBackdrop006" data-bs-backdrop="static"
+            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel006" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel004">Resultado dos Funcionarios:</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="f1">
+                        <h2>Angela Costa</h2>
+                        <p><h3>Descrição do perfil: Predominancia Gato</h3>
+                            O perfil Gato diz respeito a alguém que acredita que o foco nas pessoas com regras justas 
+                            e claras são os fatores principais para uma organização de sucesso. Organizar as pessoas em uma 
+                            estrutura que faça sentido para todos garante a qualidade e a satisfação.
+                            <h3>Ambiente de trabalho</h3>
+                            Existe uma tendência para estruturas de equipe e áreas bem planejadas que garantam a 
+                            colaboração entre elas. Também prefere ambientes mais estáveis e com previsibilidade. Trabalho em 
+                            equipe de maneira organizada é a tendência. Cuidado com ambientes onde se colocam as pessoas, dizem o que 
+                            tem que fazer e deixam elas lá. A falta de organização e trabalho em equipe pode incomodar você.
+                            <h3>Pontos de Melhoria</h3>
+                            Existe uma tendência para estruturas de equipe e áreas bem planejadas que garantam a 
+                            colaboração entre elas. Também prefere ambientes mais estáveis e com previsibilidade. Trabalho em 
+                            equipe de maneira organizada é a tendência. Cuidado com ambientes onde se colocam as pessoas, dizem o que 
+                            tem que fazer e deixam elas lá. A falta de organização e trabalho em equipe pode incomodar você.
+                        <img class="img-f" src="grafco funcionario.png" alt="grafico do funcionario">
+                    </div>
+                    <br>
+                    <div class="f2">
+                        <h2>Andre Marques</h2>
+                        <p><h3>Descrição do perfil: Predominancia Tuburao</h3>
+                            A pessoa que tem o perfil comportamental do Tubarão tem como característica mais marcante a sua agilidade.
+                            É aquela pessoa que não tem tempo a perder e por isso vai em busca dos seus objetivos sem esperar que a maré 
+                            lhe seja favorável ou aguardar o momento ideal no qual o mar esteja para peixe.
+                            <h3>Ambiente de trabalho</h3>
+                            No ambiente corporativo é extremamente focado e movido aos desafios de metas e performances. Isso faz com que 
+                            seja determinado e ágil, com uma capacidade incrível de resolver problemas e superar desafios de uma maneira 
+                            rápida e precisa.
+                            <h3>Pontos de Melhoria</h3>
+                            A sua necessidade de ser sempre o primeiro a qualquer custo, faz com que seja agressivo com as pessoas ao seu 
+                            redor e por isso, tem uma enorme dificuldade de relacionamento. Com uma forte tendência de se sentir no comando 
+                            das coisas, não consegue delegar tarefas, e por mais que faça muitas coisas ao mesmo tempo, dificilmente faz todas 
+                            elas do melhor jeito possível.</p>
+                        <img class="img-f" src="graficof2.png" alt="grafico do funcionario">
+                    </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="submit" class="btn bt-inst tx">Atualizar</button>
+                    <button type="button" class="btn bt-inst tx" data-bs-dismiss="modal">Finalizar</button>
+                </div>
+            </div>
+        </div>
+         <!--modal 004 zona vermelha-->
+         <div class="modal modal-dialog-scrollable" id="staticBackdrop004" data-bs-backdrop="static"
+         data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel004" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h5 class="modal-title" id="staticBackdropLabel004">Talentos da Rede</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <table>
+                         <tr>
+                             <th> Nome:</th>
+                             <td> Regina Souza</td>
+                             <td> - </td>
+                             <td>
+                                 <div class="pop">
+                                     <a tabindex="0" class="btnn btn-lg tx" role="button"
+                                         data-bs-toggle="popover" data-bs-trigger="focus"
+                                         title="Caixa" data-bs-content="Numero: (00) 00000-0000 
+                                         Estado:------ Cidade:-------">
+                                         Contato e Curriculo
+                                     </a>
+                                 </div>
+                             </td>
+                         </tr>
+                         <tr>
+                            <th> Nome:</th>
+                            <td> Fernanda Marques</td>
+                            <td> - </td>
+                            <td>
+                                <div class="pop">
+                                    <a tabindex="0" class="btnn btn-lg tx" role="button"
+                                        data-bs-toggle="popover" data-bs-trigger="focus"
+                                        title="Auxiliar de Serviços Gerais" data-bs-content="Numero: (00) 00000-0000 
+                                        Estado:------ Cidade:-------">
+                                        Contato e Curriculo 
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th> Nome:</th>
+                            <td> Franciele Marques</td>
+                            <td> - </td>
+                            <td>
+                                <div class="pop">
+                                    <a tabindex="0" class="btnn btn-lg tx" role="button"
+                                        data-bs-toggle="popover" data-bs-trigger="focus"
+                                        title="Vendedora" data-bs-content="Numero: (00) 00000-0000 
+                                        Estado:------ Cidade:-------">
+                                        Contato e Curriculo
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                     </table>   
+                 </div>
+             </div>
+             <div class="modal-footer">
+
+                 <button type="submit" class="btn bt-inst tx">Atualizar</button>
+                 <button type="button" class="btn bt-inst tx" data-bs-dismiss="modal">Finalizar</button>
+             </div>
+         </div>
+     </div>
+        
+        </div>
+        <!--modal 005 Prestação de contas-->
+        <!--BARRA DE NAVEGAÇÃO-->
+        <!--CONTEUDO-->
+    </div>
+    <!--Conteudo-->
+
+    <!--RODAPÉ-->
+    <footer>
+        <div class="nav justify-content-between container">
+            <div class="col-6 col-sm-5 col-lg-4">
+                <h6 class="tx-cinzae">Centrais de atendimento</h6>
+                <ul class="nav flex-column">
+                    <li>R. Salvador, 440 - EDIFÍCIO SOBERANE SALA 110/111/112/113 - Adrianópolis,<br>
+                        Manaus - AM, 69057-040</li>
+                    <li>Tel: 92 2133-2133</li>
+                    <li class="nav-item"><a href="ajuda.html" class="nav-link p-0 text-white">Entre em
+                            contato pelo nosso email: comercial@rat.com.br
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-5 col-lg-4">
+                <form>
+                    <h6>Deixe seu email para receber nossas atualizaçoes!</h6>
+                    <div class="d-flex w-100 gap-2">
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Digite seu email">
+                        <button class="btn btn-light" type="button">Inscrever</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <p class="m-0 text-center">© 2022 Company, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+    <!--RODAPÉ-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        <script>
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
+        </script>
+</body>
+
+</html>

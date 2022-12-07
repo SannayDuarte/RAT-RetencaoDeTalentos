@@ -1,0 +1,92 @@
+/*CABEÇALHO*/
+.bt-log {
+    height: 40px;
+    text-align: start;
+    margin-bottom: 5px;
+    color: #56175C;
+    background-color: white;
+}
+.bt-menu {
+    width: 100%;
+    height: 40px;
+    text-align: start;
+    margin-bottom: 20px;
+    color: #56175C;
+    background-color: white;
+}
+.bt-log:hover {
+    background-color: #C27119;
+}
+.modal-content {
+    background-color:#C27119;
+    color: #56175C;
+}
+#i{
+    padding: 0rem 0rem 0rem 45rem;
+align-items: flex-end;
+color: white;
+}
+#di{
+    padding: 0rem 0rem 0rem 15rem;
+    background-color: black;
+}
+
+/*CABEÇALHO*/
+/*CONTEUDO*/
+.conteudo {
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.bt-user{
+    color: #1A2915;
+}
+.bt-user:hover{
+    background-color: #DDD3CA;
+    border: solid #DDD3CA 2px;
+}
+
+.cont-fixed{
+    max-height: calc(100vh - 212px);
+}
+
+section{
+    overflow-y: auto;
+    min-height: calc(100vh - 665px);
+}
+
+article{
+    margin-bottom: 40px;
+}
+
+.tx{
+    color: #1A2915;
+    text-decoration: none;
+}
+.tx:hover{
+    color: white;
+}
+
+.coment{
+    background-color: #e9e9e9;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.coment-form{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+footer {
+    padding: 20px;
+    background-color:black;
+    color: #ffffff;    
+}
+@media screen  and (max-width: 1200px){
+aside{
+    display: none;
+}    
+}
+/*CONTEUDO*/

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="ajuda.css">
+    <link rel="icon" type="imagem/png" href="IMG/icon-nav.png" />
+</head>
+
+<body>
+    <!--BARRA DE NAVEGAÇÃO-->
+    <nav class="navbar navbar-expand-lg" id="di">
+        <a class="navbar-brand" href="indexR.html"><img class="img" src="logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="indexR.html">Pagina_Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="cadastroTal.html">Talento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="cadastroEm.html">Empresa</a>
+                </li>
+                <li class="nav-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <a class="nav-link text-white">Login</a>
+                </li>
+                <!--LOGIN-->
+                <div class="col-1 d-flex align-items-end pb-2">
+                     <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content p-4">
+                                <h3 class="mb-4">Olá! Você é?</h3>
+                                <button class="btn bt-log mb-4"><a href="loginTal.html"
+                                        class="tx">Colaborador</a></button>
+                                <button class="btn bt-log mb-4"><a href="loginEm.html"
+                                        class="tx">Empresa</a></button>
+                            </div>
+                        </div>
+                    </div>
+            </ul>
+        </div>
+    </nav>
+    <!--LOGIN-->
+    <!--BARRA DE NAVEGAÇÃO-->
+
+    <!--Conteundo-->
+    <form>
+        <div class="ajuda">
+          <h3>Como Podemos <br> lhe Ajudar?
+          </h3>
+          <div class="dados" id="dados">
+            <label for="exampleFormControlInput1" class="form-label">Seu Nome</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nome e Sobrenome" required>
+          </div>
+          <div class="dados" id="dados">
+            <label for="exampleFormControlInput1" class="form-label">Qual Seu Email?</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+          </div>
+          <div class="dados" id="dados">
+            <label for="exampleFormControlTextarea1" class="dados form-label">Defina seu problema.</label>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="sel">
+              <option selected>Selecione</option>
+              <option value="1">Problema com cadsastro Instituiçao</option>
+              <option value="2">Problema com cadastro Doadores</option>
+              <option value="3">Problema com o Login</option>
+              <option value="4">Problema com envio de doaçao</option>
+              <option value="5">Sugestoes</option>
+              <option value="6">Outros</option>
+            </select>
+          </div>
+          <div class="relato" id="dados">
+            <label for="exampleFormControlTextarea1" class="form-label">Relate seu problema.</label>
+            <textarea class="form-control" id="sel" rows="3" placeholder="Descreva aqui o seu problema."
+              required></textarea>
+          </div>
+          <button class="btnn btn-light" type="button">Enviar</button>
+        </div>
+    </form>
+    <!--Conteundo-->
+ 
+    <!--RODAPÉ-->
+    <footer>
+        <div class="nav justify-content-between container">
+            <div class="col-6 col-sm-5 col-lg-4">
+                <h6 class="tx-cinzae">Centrais de atendimento</h6>
+                <ul class="nav flex-column">
+                    <li>R. Salvador, 440 - EDIFÍCIO SOBERANE SALA 110/111/112/113 - Adrianópolis,<br> 
+                        Manaus - AM, 69057-040</li>
+                    <li>Tel: 92 2133-2133</li>
+                    <li class="nav-item"><a href="ajuda.html" class="nav-link p-0 text-white">Entre em
+                            contato pelo nosso email: comercial@rat.com.br
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-5 col-lg-4">
+                <form>
+                    <h6>Deixe seu email para receber nossas atualizaçoes!</h6>
+                    <div class="d-flex w-100 gap-2">
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Digite seu email">
+                        <button class="btn btn-light" type="button">Inscrever</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <p class="m-0 text-center">© 2022 Company, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+    <!--RODAPÉ-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

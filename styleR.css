@@ -1,0 +1,147 @@
+
+/*CABEÇALHO*/
+.bt-log {
+    height: 40px;
+    text-align: start;
+    margin-bottom: 5px;
+    color: #56175C;
+    background-color: white;
+}
+.bt-menu {
+    width: 100%;
+    height: 40px;
+    text-align: start;
+    margin-bottom: 20px;
+    color: #56175C;
+    background-color: white;
+}
+.bt-log:hover {
+    background-color: #C27119;
+}
+.modal-content {
+    background-color:#C27119;
+    color: #56175C;
+}
+
+#di{
+    padding: 1rem 1rem 1rem 25rem;
+    background-color: black;
+}
+.img{
+    padding-right: 15rem;
+}
+/*CABEÇALHO*/
+
+/*CONTEUDO*/
+.tx-slide{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.tx-pg{
+    background-color: #C27119;
+    color: #C27119;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.bt-slide {
+    height: 40px;
+    text-align: start;
+    margin-bottom: 5px;
+    color: #56175C;
+    background-color: #C27119;
+}
+.img-fundo{
+    max-height: 100vh;
+    width: auto;
+    overflow: auto;
+}
+.img-ca{
+    max-height: 100%;
+    width:100%;
+
+}
+.bloco01{
+    height: calc(100vh - 110px);
+}
+.bloco02{
+    height: 100vh;
+}
+.texto-slide{
+    position: absolute;
+}
+.sobre{
+    padding: 8rem;
+}
+.texto{
+    padding: 4rem;
+    font-size: 2rem;
+text-align: center;
+}
+.valores{
+    padding: 1rem;
+}
+.tit{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.destaque{
+    color: #C27119;
+    text-align: center;
+}
+.conteudo {
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    
+}
+.bg-gradienti {
+    
+    background:#C27119;
+}
+.flip-container {
+    padding: 3%;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+.flipper {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+}
+
+.flip-container:hover .flipper {
+    transform: rotatey(180deg);
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+}
+.back {
+    transform: rotateY(180deg);
+}
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+/*CONTEUDO*/
+footer {
+    padding: 20px;
+    background-color:black;
+    color: #ffffff;    
+}

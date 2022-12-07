@@ -79,6 +79,9 @@ article{
     border-radius: 10px;
     padding: 10px;
 }
+.img-f{
+    width: 30rem;
+}
 footer {
     padding: 20px;
     background-color:black;

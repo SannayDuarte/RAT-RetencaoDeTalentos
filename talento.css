@@ -39,7 +39,7 @@ color: white;
     padding-bottom: 30px;
 }
 .bt-user{
-    color: #1A2915;
+    color: black;
 }
 .bt-user:hover{
     background-color: #DDD3CA;
@@ -60,7 +60,7 @@ article{
 }
 
 .tx{
-    color: #1A2915;
+    color: black;
     text-decoration: none;
 }
 .tx:hover{
@@ -82,14 +82,66 @@ article{
 .img-f1{
     width: 30rem;
 }
+.modal-container-termo,.modal-container-comprar{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #56175c, #6e1861, #851964,
+    #9c1c64, #b22163, #be285c, #c93254, #d13d4c, #d14a3e, #ce5731, #c96425, #c27119);
+  }
+  .modal-container-comprar.mostrar{
+    display: flex;
+    height:100%;
+  }
+  .modal-container-termo.mostrarr{
+    display: flex;
+    height:100%;
+  }
+  .termo{
+     background: white;
+     height:100%;
+    width: 80%;
+    min-width: 700px;
+    padding: 10px;
+    border: 10px solid #56175C;
+  }
+  .text-modal{
+    font-size:100%;
+    color: black;
+  }
+  .form-check-label{
+    font-size:1rem;
+    color:black;
+  }
+  .fechar {
+    padding:5px 5px;
+    width: 3rem;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    background-color: #C27119;
+  }
+  .condi{
+  border: solid #56175C;
+  }
+
+/*CONTEUDO*/
 footer {
     padding: 20px;
     background-color:black;
     color: #ffffff;    
 }
+
 @media screen  and (max-width: 1200px){
 aside{
     display: none;
 }    
 }
-/*CONTEUDO*/

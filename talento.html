@@ -291,27 +291,66 @@
                             • Pacote Office Básico/Intermediário.
                             <h6>A Tracbel apoia e busca estimular uma força de trabalho diversificada. Por isso, em 
                             todas as nossas oportunidades não fazemos distinção de raça, gênero, religião, 
-                            orientação sexual, ou deficiência.
-                            Venha fazer parte do time que constrói os novos tempos.</h6>
-                            Increver-se
-
-                            Assistente de RH LG
-                            Responsabilidades e atribuições
+                            orientação sexual, ou deficiência.</h6>
+                            <b>Venha fazer parte do time que constrói os novos tempos.</b>
+                            <label class="condi btn" onclick="abrirModal()">Increver-se</label>
+<br><br><br>
+                            <h4>Assistente de RH-LG</h4>
+                            <h5>Responsabilidades e atribuições</h5>
                             Prestar suporte nas atividades de Recrutamento e Seleção: Triagem de currículos, 
                             agendamento de entrevistas, recepção do candidato, suporte na realização de 
                             entrevistas, feedback a candidatos.
                             Suporte nas atividades de cadastro em sistema de novos colaboradores.
                             Apoio na realização de Integrações;
-                            Organização de arquivos;
+                            <h5>Organização de arquivos;</h5>
                             Atendimento ao colaborador e demais atividades relacionadas ao setor de Recursos 
                             Humanos.
-                            Requisitos e qualificações
+                            <h5>Requisitos e qualificações</h5>
                             Cursando Ensino Superior em Psicologia, Administração ou áreas correlatadas;
                             Inglês básico;
                             Desejável Pacote Office intermediário
+                            <b>Venha fazer parte do time que constrói os novos tempos.</b>
+                            <label class="condi btn" onclick="abrirModal()">Increver-se</label>
                         </div>
                     </div>
                 </div>
+                <!--COMPRAR-->
+    <div class="container-comprar">
+        <div id="modal-comprar" class="modal-container-comprar  modal-dialog-centered modal-dialog-scrollable">
+          <div class="comprar">
+            <button class="fechar">x</button>
+            <h4 class="subtitulo">Confirmaçoes para si Inscrever na vaga:</h4>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Escreva seu Nome Completo: </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escreva seu Nome Completo" required>
+              </div>
+              <br>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Escreva seu Email: </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escreva seu Email:" required>
+              </div>
+            <br>
+            <label for="formFile" class="form-label">Coloque abaixo seu curriculo em pdf!</label>
+            <input class="form-control" type="file" id="formFile">
+            <br>
+            <h5>Boa Sorte!</h5>
+            <label class="condi btn">Enviar</label>
+          </div>
+        </div>
+        <script>
+          function abrirModal() {
+            const modal = document.getElementById("modal-comprar")
+            modal.classList.add("mostrar")
+  
+            modal.addEventListener("click", (e) => {
+              if (e.target.id == "modal-comprar" || e.target.className == "fechar") {
+                modal.classList.remove("mostrar");
+              }
+            });
+          }
+        </script>
+      </div>
+      <!--COMPRAR-->
             </div>
 
             <!--modal 004 zona vermelha-->

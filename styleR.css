@@ -22,7 +22,6 @@
     background-color:#C27119;
     color: #56175C;
 }
-
 #di{
     padding: 1rem 1rem 1rem 25rem;
     background-color: black;
@@ -60,7 +59,6 @@
 .img-ca{
     max-height: 100%;
     width:100%;
-
 }
 .bloco01{
     height: calc(100vh - 110px);
@@ -95,10 +93,8 @@ text-align: center;
     border-radius: 20px;
     padding-bottom: 30px;
     display: flex;
-    
 }
 .bg-gradienti {
-    
     background:#C27119;
 }
 .flip-container {
@@ -117,9 +113,7 @@ text-align: center;
     height: 100%;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    
 }
-
 .flip-container:hover .flipper {
     transform: rotatey(180deg);
 }
@@ -145,3 +139,64 @@ footer {
     background-color:black;
     color: #ffffff;    
 }
+@media screen  and (max-width: 500px){
+    #di{
+        padding: 1rem 1rem 1rem 5rem;
+        background-color: black;
+    }
+    .navbar-toggler-icon{
+        background-color:#56175C;
+    }
+    .img{
+        padding-right: 10px;
+    }
+    .sobre{
+        padding: 20px;
+    }
+    .texto{
+        padding: 10px;
+        font-size: 20px;
+    text-align: center;
+    }
+    .valores{
+        padding: 10px;
+    }
+    .conteudo {
+        background-color: white;
+        border-radius: 15px;
+        padding-bottom: 10px;
+        display: flex;
+    }
+    .tx-slide{
+        background-color: rgba(255, 255, 255, 0.5);
+        color: black;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+    .tx-pg{
+        background-color: #C27119;
+        color: #C27119;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+    .bt-slide {
+        height: 20px;
+        text-align: start;
+        margin-bottom: 5px;
+        color: #56175C;
+        font-size: 10px;
+        background-color: #C27119;
+    }
+    .bloco01{
+        height: calc(80vh - 90px);
+    }
+    .bloco02{
+        height: 80vh;
+    }
+    .texto-slide{
+        position: absolute;
+    }
+    .carousel{
+        height: 20rem;
+    }
+    }

@@ -73,3 +73,30 @@ footer {
     color: #ffffff;    
 }
 /*rodape*/
+@media screen  and (max-width: 500px){
+  #di{
+      padding: 1rem 1rem 1rem 5rem;
+      background-color: black;
+  }
+  .navbar-toggler-icon{
+      background-color:#56175C;
+  }
+  .img{
+      padding-right: 10px;
+  }
+  .ajuda{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+  }
+  label{
+    font-size: 20px;
+    color:#56175C;
+  }
+  #dados{
+    text-align: left;
+    width: 20rem;
+    padding: 1rem;
+  }
+
+  }

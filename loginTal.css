@@ -86,3 +86,25 @@ footer {
     background-color:black;
     color: #ffffff;    
 }
+
+@media screen  and (max-width: 500px){
+    #di{
+        padding: 1rem 1rem 1rem 5rem;
+        background-color: black;
+    }
+    .navbar-toggler-icon{
+        background-color:#56175C;
+    }
+    .img{
+        padding-right: 10px;
+    }
+    #img-logo2{
+        display: none;
+    }
+    .login {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    }

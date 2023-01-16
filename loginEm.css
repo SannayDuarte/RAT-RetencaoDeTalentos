@@ -37,8 +37,7 @@
 .conteudo {
     background-image: linear-gradient(to right top, #56175c, #6e1861, #851964,
      #9c1c64, #b22163, #be285c, #c93254, #d13d4c, #d14a3e, #ce5731, #c96425, #c27119);
-    border-radius: 20px;
-    
+    border-radius: 20px; 
 }
 
 .login {
@@ -86,3 +85,24 @@ footer {
     background-color:black;
     color: #ffffff;    
 }
+@media screen  and (max-width: 500px){
+    #di{
+        padding: 1rem 1rem 1rem 5rem;
+        background-color: black;
+    }
+    .navbar-toggler-icon{
+        background-color:#56175C;
+    }
+    .img{
+        padding-right: 10px;
+    }
+    #img-logo2{
+        display: none;
+    }
+    .login {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    }

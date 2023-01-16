@@ -118,10 +118,75 @@ label {
 /*termo*/
 /*Cadas Doadores*/
 
-
-
 footer {
     padding: 20px;
     background-color:black;
     color: #ffffff;    
 }
+
+@media screen  and (max-width: 500px){
+    #di{
+        padding: 1rem 1rem 1rem 5rem;
+        background-color: black;
+    }
+    .navbar-toggler-icon{
+        background-color:#56175C;
+    }
+    .img{
+        padding-right: 10px;
+    }
+    .Cadastro{
+        padding:1.5rem;
+        }
+        #cads{
+         display: inline;
+         width: 100%;
+         align-items: center;
+         justify-content: center;
+        }
+        .nomes {
+         padding: 2rem;
+        }
+        .endereço{
+         padding: 2rem;
+        }
+        #doc{
+         width:30rem;
+        }
+        #final{
+         padding: 2rem;
+        }
+        h5{
+        text-align: center;
+        color: #56175C;
+        }
+        .btnn {
+         background-color:#C27119;
+         padding:5px 5px;
+         font-size: 1.5rem;
+         border-radius: 8px;
+         color:black;
+     }
+        label{  
+           color: #56175C;
+        }
+        #doc{
+            width: 20rem;
+        }
+
+        /*termo*/
+
+  .termo{
+    background: white;
+    height:100%;
+    width: 20%;
+  }
+  .te{
+    font-size:100%;
+    color: #56175C;
+  }
+  .form-check-label{
+    font-size:1rem;
+    color:#56175C;
+  }
+    }

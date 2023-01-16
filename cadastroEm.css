@@ -179,5 +179,19 @@ footer {
             width: 20rem;
         }
 
-        
+        /*termo*/
+
+  .termo{
+    background: white;
+    height:100%;
+    width: 20%;
+  }
+  .te{
+    font-size:100%;
+    color: #56175C;
+  }
+  .form-check-label{
+    font-size:1rem;
+    color:#56175C;
+  }
     }
